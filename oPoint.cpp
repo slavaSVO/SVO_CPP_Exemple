@@ -31,7 +31,9 @@ oPoint oPoint::operator= (oPoint _Point){//Перегрузка оператора присвоювання
 oPoint oPoint::operator+ (const oPoint& _Point){//Перегрузка оператора присвоювання
     return oPoint(this->x + _Point.x, this->y + _Point.y, this->z + _Point.z);
 }
-
+oPoint oPoint::operator- (const oPoint& _Point){//Перегрузка оператора віднімання
+    return oPoint(this->x - _Point.x, this->y - _Point.y, this->z - _Point.z);
+}
 bool oPoint::operator> (oPoint _Point){//Перегрузка оператора порівняння
     int sumL, sumR;
     sumL = x * x + y * y + z * z;

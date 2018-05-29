@@ -12,6 +12,7 @@ public:
     ~oPoint();//Деструктор
     oPoint operator= (oPoint);//Перегрузка оператора присвоювання
     oPoint operator+ (const oPoint&);//Перегрузка оператора присвоювання
+    oPoint operator- (const oPoint&);//Перегрузка оператора присвоювання
     bool operator> (oPoint);//Перегрузка оператора порівняння
     void print();//Метод виведення на друк координт
 protected:
