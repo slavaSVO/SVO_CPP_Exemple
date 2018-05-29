@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1527604250 source:d:\project\cpp\57_3file\main.cpp
+	<iostream>
+	"oPoint.h"
+	"oSegment.h"
+
+1527605170 d:\project\cpp\57_3file\opoint.h
+	<iostream>
+
+1527603985 source:d:\project\cpp\57_3file\opoint.cpp
+	<iostream>
+	"oPoint.h"
+
+1527601853 d:\project\cpp\57_3file\osegment.h
+	<iostream>
+	"oPoint.h"
+
+1527602393 source:d:\project\cpp\57_3file\osegment.cpp
+	<iostream>
+	"oSegment.h"
+	"oPoint.h"
+
