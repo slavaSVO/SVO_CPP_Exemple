@@ -46,3 +46,17 @@ bool oPoint::operator> (oPoint _Point){//Перегрузка оператора порівняння
 void oPoint::print(){
     cout << "X = " << x << ", Y = " << y << ", Z = " << z << ".\n";
 };
+void oPoint::moveX(int shiftX){//Метод здвигу точки по координаті X
+    this->x = x + shiftX;
+}
+void oPoint::moveY(int shiftY){//Метод здвигу точки по координаті Y
+    this->y = y + shiftY;
+}
+void oPoint::moveZ(int shiftZ){//Метод здвигу точки по координаті Z
+    this->z = z + shiftZ;
+}
+void oPoint::moveXYZ(int shiftX, int shiftY, int shiftZ){//Метод здвигу точки по координатах XYZ
+    this->x = x + shiftX;
+    this->y = y + shiftY;
+    this->z = z + shiftZ;
+}
